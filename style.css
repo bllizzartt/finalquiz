@@ -12,11 +12,13 @@ a {
   .previous {
     background-color: #f1f1f1;
     color: black;
+    align-items: left;
   }
   
   .next {
     background-color: #04AA6D;
     color: white;
+    align-items: right;  
   }
   
   .round {
@@ -24,6 +26,7 @@ a {
   }
 
   .question {
+    text-align: center;
       display: none;
   }
 
@@ -33,4 +36,8 @@ a {
   
   p {
     text-align: center;
+  }
+
+  #firstbtn {
+    align-self: start;
   }

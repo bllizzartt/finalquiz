@@ -50,8 +50,9 @@ function prevQuestion(){
 
 
 function showScore(){
+    localStorage.setItem("correctScore", correctScore);
     console.log(correctScore * 10 + "%");
+
+    
 }
 
-document.getElementById('results').innerHTML = correctScore * 10 + '%';
-console.log(document.getElementById('results'));
