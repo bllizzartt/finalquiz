@@ -81,7 +81,8 @@ a {
   body {
     text-align: center;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    font-weight: bo;
+    font-weight: bold;
+    background-image: url('cloud.jpg');
     
   }
 
@@ -118,8 +119,5 @@ a {
     width: 40%;
     height: 40%;
   }
-  
-  
-  body {
 
-  }
+  
