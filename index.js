@@ -31,6 +31,7 @@ let userValue;
             }
         }
     }
+    
 
     localStorage.setItem(questions[counter].firstElementChild.innerHTML, userValue);
     questions[counter].classList.remove('show');
