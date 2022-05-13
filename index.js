@@ -1,3 +1,4 @@
+//conatins all JS for determining our values 
 document.addEventListener("DOMContentLoaded",function(){
 
     // document.querySelector("#name").innerHTML = localStorage.getItem("name")

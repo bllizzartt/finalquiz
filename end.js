@@ -1,3 +1,4 @@
+//This page is for presenting our local storage values
 let resultText = document.querySelector('#final');
     resultText.innerText = localStorage.getItem('correctScore') * 10 + "%";
 
